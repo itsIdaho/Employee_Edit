@@ -38,7 +38,7 @@
             this.rbf = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.lb4 = new System.Windows.Forms.Label();
-            this.tb4 = new System.Windows.Forms.TextBox();
+            this.tb5 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -132,12 +132,12 @@
             this.lb4.TabIndex = 9;
             this.lb4.Text = "Eingestellt:";
             // 
-            // tb4
+            // tb5
             // 
-            this.tb4.Location = new System.Drawing.Point(146, 202);
-            this.tb4.Name = "tb4";
-            this.tb4.Size = new System.Drawing.Size(115, 22);
-            this.tb4.TabIndex = 10;
+            this.tb5.Location = new System.Drawing.Point(146, 202);
+            this.tb5.Name = "tb5";
+            this.tb5.Size = new System.Drawing.Size(115, 22);
+            this.tb5.TabIndex = 10;
             // 
             // button1
             // 
@@ -154,7 +154,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.tb4);
+            this.Controls.Add(this.tb5);
             this.Controls.Add(this.lb4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.rbf);
@@ -185,7 +185,7 @@
         private System.Windows.Forms.RadioButton rbf;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lb4;
-        private System.Windows.Forms.TextBox tb4;
+        private System.Windows.Forms.TextBox tb5;
         private System.Windows.Forms.Button button1;
     }
 }
